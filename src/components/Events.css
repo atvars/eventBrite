@@ -1,0 +1,26 @@
+.events {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: yellow;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: black;
+}
+
+.events:hover,
+.events:active {
+  background-color: #6c9708;
+  color: white;
+}
+
+.events h2 {
+  font-size: 2rem;
+  color: blue;
+}
+
+.events h3 {
+  color: black;
+  margin: 0;
+  font-size: 1rem;
+}

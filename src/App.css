@@ -1,0 +1,37 @@
+section {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: green;
+  border: 1px solid #000852;
+  color: yellow;
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: #6c9708;
+}
+
+.eventButton {
+  background-color: lightblue;
+}
+
+.eventButton:hover {
+  background-color: yellow;
+}
